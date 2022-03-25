@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +6,15 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  public test = true;
+  static x = 5;
+  test = true;
+  private zx = [10, 2, 3];
+
+  public nope() {
+    this.do();
+  }
+
+  private do() {
+    console.log(this.zx);
+  }
 }

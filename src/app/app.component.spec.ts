@@ -1,4 +1,4 @@
-import { render, screen, fireEvent } from '@testing-library/angular';
+import { render, screen } from '@testing-library/angular';
 import { AppComponent } from './app.component';
 
 describe('AppComponent', () => {
