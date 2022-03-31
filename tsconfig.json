@@ -23,7 +23,8 @@
       "dom"
     ],
     "types": [
-      "jest"
+      "jest",
+      "@testing-library/jest-dom"
     ],
     "esModuleInterop": true
   },
