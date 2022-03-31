@@ -6,6 +6,7 @@
     "esbenp.prettier-vscode",
     "kisstkondoros.vscode-gutter-preview",
     "editorconfig.editorconfig",
-    "dbaeumer.vscode-eslint"
+    "dbaeumer.vscode-eslint",
+    "firsttris.vscode-jest-runner"
   ]
 }
