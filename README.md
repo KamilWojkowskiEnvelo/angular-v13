@@ -43,4 +43,4 @@ To get more help on the Angular CLI use `npm run ng` or go check out the [Angula
 
 ## TODO
 
-eslint ngrx
+Eslint ngrx
