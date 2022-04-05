@@ -2,7 +2,12 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
-    "baseUrl": "./",
+    "baseUrl": "./src",
+    "paths": {
+      "@shared/*": ["app/shared/*"],
+      "@features/*": ["app/features/*"],
+      "@environments/*": ["environments/*"]
+    },
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
     "strict": true,
@@ -18,14 +23,8 @@
     "importHelpers": true,
     "target": "es2017",
     "module": "es2020",
-    "lib": [
-      "es2021",
-      "dom"
-    ],
-    "types": [
-      "jest",
-      "@testing-library/jest-dom"
-    ],
+    "lib": ["es2021", "dom"],
+    "types": ["jest", "@testing-library/jest-dom"],
     "esModuleInterop": true
   },
   "angularCompilerOptions": {

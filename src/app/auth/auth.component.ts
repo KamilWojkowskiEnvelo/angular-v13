@@ -1,12 +1,8 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
 
-export type x = {
-  name: string;
-};
-
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
+  selector: 'app-auth',
+  templateUrl: './auth.component.html',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class AppComponent {}
+export class AuthComponent {}
